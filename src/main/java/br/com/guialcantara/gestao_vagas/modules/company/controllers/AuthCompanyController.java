@@ -1,5 +1,6 @@
 package br.com.guialcantara.gestao_vagas.modules.company.controllers;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/company")
+@Tag(name = "Empresa", description = "Informações da empresa")
 public class AuthCompanyController {
 
   @Autowired

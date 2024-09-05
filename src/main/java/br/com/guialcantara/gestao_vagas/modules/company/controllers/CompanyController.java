@@ -1,5 +1,6 @@
 package br.com.guialcantara.gestao_vagas.modules.company.controllers;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,6 +15,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/company")
+@Tag(name = "Empresa", description = "Informações da empresa")
 public class CompanyController {
   @Autowired
   private CreateCompany createCompany;
