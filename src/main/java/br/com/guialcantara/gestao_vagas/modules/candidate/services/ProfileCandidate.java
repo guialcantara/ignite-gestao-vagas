@@ -1,6 +1,6 @@
 package br.com.guialcantara.gestao_vagas.modules.candidate.services;
 
-import br.com.guialcantara.gestao_vagas.modules.candidate.CandidateRepository;
+import br.com.guialcantara.gestao_vagas.modules.candidate.repository.CandidateRepository;
 import br.com.guialcantara.gestao_vagas.modules.candidate.dto.ProfileCandidateResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

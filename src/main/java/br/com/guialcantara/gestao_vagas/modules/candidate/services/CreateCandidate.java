@@ -5,8 +5,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import br.com.guialcantara.gestao_vagas.exceptions.UserFoundException;
-import br.com.guialcantara.gestao_vagas.modules.candidate.CandidateEntity;
-import br.com.guialcantara.gestao_vagas.modules.candidate.CandidateRepository;
+import br.com.guialcantara.gestao_vagas.modules.candidate.entity.CandidateEntity;
+import br.com.guialcantara.gestao_vagas.modules.candidate.repository.CandidateRepository;
 
 @Service
 public class CreateCandidate {

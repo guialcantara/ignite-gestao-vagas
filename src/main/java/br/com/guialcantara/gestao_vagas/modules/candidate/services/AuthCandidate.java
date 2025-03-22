@@ -1,6 +1,6 @@
 package br.com.guialcantara.gestao_vagas.modules.candidate.services;
 
-import br.com.guialcantara.gestao_vagas.modules.candidate.CandidateRepository;
+import br.com.guialcantara.gestao_vagas.modules.candidate.repository.CandidateRepository;
 import br.com.guialcantara.gestao_vagas.modules.candidate.dto.AuthCandidateRequestDTO;
 import br.com.guialcantara.gestao_vagas.modules.candidate.dto.AuthCandidateResponseDTO;
 import com.auth0.jwt.JWT;
